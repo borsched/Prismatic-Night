@@ -4,5 +4,5 @@
 #tabbrowser-tabpanels,
 browser[type=content-primary],
 browser[type=content] > html{
-    background: #263238 !important
+    background: #191919 !important
 }

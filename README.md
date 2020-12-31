@@ -1,13 +1,14 @@
 ## Prismatic-Night
 
-If you're seeing something unexpected OR the result doesn't match the screenshots OR you want me to add new features to the startpage OR you need help in modifing the existing files, [click on this](https://github.com/dbuxy218/Prismatic-Night/issues/new/choose) to open an issue and I'll try to solve it. Post a screenshot of the problem, your current OS as well as the version of firefox you're using. 
+This is my fork with a different search bar, style, and with CTRL+L as the default way to access the url bar.
+I only have the home page up and working as I'm using gentoo's firefox-bin.
 
 #### About the Startpage
 
-The Startpage is hosted using github-pages. [Click here](https://dbuxy218.github.io/Prismatic-Night/) to see the live preview.
-The Startpage currently supports searching with DuckDuckgo and Google. Click on the search engine logo image to toggle the search engine.
+The Startpage is hosted using github-pages. [Click here](https://borsched.github.io/Prismatic-Night/) to see the live preview.
+This fork only supports searching with DuckDuckgo.
 
-![engine](/screenshots/engineToggle.gif)
+![preview](/screenshots/preview.png)
 
 ### Table of Contents
 │── [Instructions](#Instructions)<br>│   │── [Firefox theme](#Firefoxtheme)<br>│   │   │── [Setting the userchrome](#userchrome)<br>│   │   │── [Setting the startpage as the Home page](#homepage)<br>│   │   └── [Setting the startpage as the New Tab page](#newtab)<br>│   │── [Openbox theme](#openbox)<br>│   │── [Tint2 theme](#tint2)<br>│   │── [Folder and systray icons](#icons)<br>│   │── [Geany colorscheme](#geany)<br>│   └── [Zathura](#zathura)<br>└── [Screenshots](#scrots)<br>

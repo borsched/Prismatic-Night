@@ -1,5 +1,5 @@
  @-moz-document url("about:home"),url(about:preferences),url("about:blank"),url("about:newtab"),url("about:privatebrowsing"){
-  body{background-color:#263238!important;--newtab-search-icon: transparent !important;}
+  body{background-color:#191919!important;--newtab-search-icon: transparent !important;}
   a,a:visited,a:hover{color:#292D31!important}
 	#newtab-search-text {
 	background-color: #292D31 !important;
@@ -9,15 +9,14 @@
 	text-align: center !important;
 	border:none !important;
 	font-weight: bold !important;
-		}
+}
 
 .search-wrapper input {
     --newtab-textbox-focus-boxshadow: none !important;
     padding-left: 20px !important;
    	padding-inline-end: 13px !important;
-  }
+}
   
-
 .search-wrapper .logo-and-wordmark .wordmark {
   display: none!important;
 }
@@ -27,8 +26,6 @@
   padding-top: 60px!important;
   filter: saturate(30%) opacity(50%)!important;
 }
-
-
 
 .search-button{background:none !important;}
 
@@ -41,12 +38,12 @@
  
 
 }
+
 :root {
-	
     --in-content-border-active: #9BA8BB !important;
     --in-content-border-active-shadow: none !important;
-    --in-content-page-background: #263238 !important;
+    --in-content-page-background: #191919 !important;
     --in-content-page-color: #9BA8BB !important;
-    scrollbar-color: #677379 #263238 !important;
+    scrollbar-color: #677379 #191919 !important;
     scrollbar-width: thin;
 }
