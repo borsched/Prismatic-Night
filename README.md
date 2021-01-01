@@ -1,7 +1,13 @@
 ## Prismatic-Night
 
 This is my fork with a different search bar, style, and with CTRL+L as the default way to access the url bar.
-I only have the home page up and working as I'm using gentoo's firefox-bin.
+
+With `firefox-bin` on Gentoo, you can't set the new tab with these instructions.
+However, with the normal `firefox` package that you compile, you actually use `/usr/lib64/` instead of `/usr/lib/`
+
+Keep in mind that if you run the same profile with `firefox-bin` and `firefox` then only one of those will be able to ran at a time on Gentoo.
+
+I'm now using a different startpage: https://github.com/borsched/startpage
 
 #### About the Startpage
 
@@ -63,6 +69,7 @@ Copy the startpage dir to `~/.mozilla/firefox/PROFILE/` just like above. Right c
 Restart firefox.
 
 ### Setting the startpage as the New Tab page <a name="newtab"></a>
+If you set a new tab, then you will be prompted with the search bar at your home page if your home page is the same as your new tab.
 In the older firefox versions this step was very easy and straight forward but now it's a bit [complicated](https://support.mozilla.org/en-US/kb/customizing-firefox-using-autoconfig). But fortunately if you follow these steps it will be quite easy([credit/for windows](https://www.reddit.com/r/firefox/comments/ge86z4/newtab_page_to_local_file_firefox_76_redux/)):
 
 - Open the firefox/newtab/ dir in your file manager. It contains `local-settings.js` and `mozilla.cfg`.
